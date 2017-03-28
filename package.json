@@ -4,10 +4,11 @@
   "repository": "ssh://git@github.com/otofu-square/reading-js-stack-from-scratch.git",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src"
+    "start": "babel-node src",
+    "test": "eslint src"
   },
   "dependencies": {
-    "eslint": "^3.15.0",
+    "eslint": "^3.18.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
     "eslint-plugin-react": "^6.9.0"
