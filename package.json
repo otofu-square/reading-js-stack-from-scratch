@@ -17,6 +17,7 @@
     "prepush": "yarn test && yarn prod:build"
   },
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "common-tags": "^1.4.0",
     "compression": "^1.6.2",
     "eslint": "^3.18.0",
