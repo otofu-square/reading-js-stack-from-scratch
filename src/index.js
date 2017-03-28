@@ -1,4 +1,4 @@
-const Dog  = require('./dog')
+import Dog from './dog'
 
 const tody = new Dog('Tody')
 
