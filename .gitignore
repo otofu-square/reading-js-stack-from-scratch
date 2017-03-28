@@ -65,3 +65,4 @@ typings/
 
 # Distination dir for Babel
 /lib/
+/dist/
