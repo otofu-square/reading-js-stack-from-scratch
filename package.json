@@ -14,7 +14,7 @@
     "prod:stop": "pm2 delete server",
     "test": "eslint src && flow && jest --coverage",
     "precommit": "yarn test",
-    "prepush": "yarn test"
+    "prepush": "yarn test && yarn prod:build"
   },
   "dependencies": {
     "common-tags": "^1.4.0",
