@@ -15,7 +15,7 @@
     "prod:stop": "pm2 delete server",
     "test": "eslint src && flow && jest --coverage",
     "precommit": "yarn test",
-    "prepush": "yarn test"
+    "prepush": "yarn test && yarn prod:build"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
