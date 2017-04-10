@@ -1,6 +1,10 @@
 {
   "presets": [
     "env",
-    "flow"
+    "flow",
+    "react"
+  ],
+  "plugin": [
+    "flow-react-proptypes"
   ]
 }
