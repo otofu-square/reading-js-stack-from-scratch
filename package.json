@@ -30,7 +30,8 @@
     "flow-bin": "^0.43.1",
     "husky": "^0.13.3",
     "jest": "^19.0.2",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "pm2": "^2.4.4"
   },
   "dependencies": {
     "compression": "^1.6.2",
