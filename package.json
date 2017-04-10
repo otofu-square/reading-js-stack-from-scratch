@@ -47,6 +47,8 @@
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "compression": "^1.6.2",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
   }
 }
