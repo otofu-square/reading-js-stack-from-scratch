@@ -10,7 +10,9 @@ const mapStateToProps = () => ({
 })
 
 const mapDispatcherToProps = dispatch => ({
-  handleClick: () => { dispatch(sayHelloAsync(1234)) },
+  handleClick: () => {
+    dispatch(sayHelloAsync(1234))
+  },
 })
 
 export default connect(mapStateToProps, mapDispatcherToProps)(Button)

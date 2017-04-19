@@ -7,7 +7,6 @@ type Props = {
   handleClick: Function,
 }
 
-const Button = ({ label, handleClick }: Props) =>
-  <button onClick={handleClick}>{label}</button>
+const Button = ({ label, handleClick }: Props) => <button onClick={handleClick}>{label}</button>
 
 export default Button

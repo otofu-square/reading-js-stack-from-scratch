@@ -7,7 +7,7 @@ import Message from './containers/message'
 import MessageAsync from './containers/message-async'
 import { APP_NAME } from '../shared/config'
 
-const App = () =>
+const App = () => (
   <div>
     <h1>{APP_NAME}</h1>
     <Message />
@@ -15,5 +15,6 @@ const App = () =>
     <MessageAsync />
     <HelloAsyncButton />
   </div>
+)
 
 export default App
