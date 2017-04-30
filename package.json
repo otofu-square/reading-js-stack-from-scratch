@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "start": "babel-node src",
-    "test": "eslint src"
+    "test": "eslint src && flow"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
