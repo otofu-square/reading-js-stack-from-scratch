@@ -8,6 +8,7 @@
     "start": "babel-node src"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1"
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
   }
 }
