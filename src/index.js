@@ -1,4 +1,6 @@
 // @flow
 
-const str: string = 'ES6'
-console.log(`Hello ${str}`)
+const hello = (str: string) => str
+console.log(`Hello ${hello('ES6')}`)
+
+export default hello
