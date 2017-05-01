@@ -6,7 +6,7 @@ const style = {}
 
 const App = () => (
   <div style={style}>
-    <h1>Hello REACT!!</h1>
+    <h1>Hello REACT!</h1>
   </div>
 )
 
