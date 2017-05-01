@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "start": "babel-node src/server",
+    "dev:start": "nodemon --ignore lib --exec babel-node src/server",
     "test": "eslint src && flow && jest --coverage",
     "precommit": "yarn test",
     "prepush": "yarn test"
