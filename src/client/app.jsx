@@ -2,11 +2,19 @@
 
 import React from 'react'
 
-const style = {}
+import HelloButton from './containers/hello-button'
+import HelloAsyncButton from './containers/hello-async-button'
+import Message from './containers/message'
+import MessageAsync from './containers/message-async'
+import { APP_NAME } from '../shared/config'
 
 const App = () => (
-  <div style={style}>
-    <h1>Hello REACT!</h1>
+  <div>
+    <h1>{APP_NAME}</h1>
+    <Message />
+    <HelloButton />
+    <MessageAsync />
+    <HelloAsyncButton />
   </div>
 )
 
