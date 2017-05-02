@@ -10,8 +10,8 @@ import { Provider } from 'react-redux'
 import { AppContainer } from 'react-hot-loader'
 import thunkMiddleware from 'redux-thunk'
 
-import App from './app'
-import helloReucer from './reducers/hello'
+import App from '../shared/app'
+import helloReucer from '../shared/reducers/hello'
 import { APP_CONTAINER_SELECTOR } from '../shared/config'
 import { isProd } from '../shared/util'
 

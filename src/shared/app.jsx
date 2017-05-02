@@ -4,13 +4,13 @@ import React from 'react'
 import { Switch } from 'react-router'
 import { Route } from 'react-router-dom'
 
-import { APP_NAME } from '../shared/config'
+import { APP_NAME } from './config'
 import Nav from './components/nav'
 import HomePage from './components/pages/home'
 import HelloPage from './components/pages/hello'
 import HelloAsyncPage from './components/pages/hello-async'
 import NotFoundPage from './components/pages/not-found'
-import { HOME_PAGE_ROUTE, HELLO_PAGE_ROUTE, HELLO_ASYNC_PAGE_ROUTE } from '../shared/routes'
+import { HOME_PAGE_ROUTE, HELLO_PAGE_ROUTE, HELLO_ASYNC_PAGE_ROUTE } from './routes'
 
 const App = () => (
   <div>
