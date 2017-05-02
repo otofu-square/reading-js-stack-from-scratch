@@ -15,6 +15,7 @@ import App from '../shared/app'
 import helloReucer from '../shared/reducers/hello'
 import { APP_CONTAINER_SELECTOR } from '../shared/config'
 import { isProd } from '../shared/util'
+import setUpSocket from './socket'
 
 /* eslint-disable no-underscore-dangle */
 const composeEnhancers = (isProd ? null : window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose
@@ -26,6 +27,8 @@ const store = createStore(
   { hello: Immutable.fromJS(preloadedState.hello) },
   composeEnhancers(applyMiddleware(thunkMiddleware)),
 )
+
+setUpSocket(store)
 
 const rootEl = document.querySelector(APP_CONTAINER_SELECTOR)
 
