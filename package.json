@@ -1,10 +1,12 @@
-{V
+{
   "name": "reading-js-stack-from-scratch",
   "version": "0.0.3",
   "repository": "ssh://git@github.com/otofu-square/reading-js-stack-from-scratch.git",
   "license": "MIT",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "babel-node src"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0"
